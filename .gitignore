@@ -1,0 +1,14 @@
+# Web dependencies
+node_modules/
+.next/
+
+
+# Local config
+.env
+
+
+# Cache/Logs
+.pytest_cache/
+*.log
+
+AGENTS.md
