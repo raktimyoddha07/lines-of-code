@@ -17,7 +17,7 @@ ctx.onmessage = async (e: MessageEvent) => {
       const fileQueue: { handle: FileSystemFileHandle; path: string }[] = [];
 
       async function discover(directory: FileSystemDirectoryHandle, currentPath: string) {
-        for await (const [name, handle] of directory.entries()) {
+        for await (const [name, handle] of (directory as any).entries()) {
           const relativePath = currentPath ? `${currentPath}/${name}` : name;
 
           if (isDefaultFolderIgnored(relativePath)) {

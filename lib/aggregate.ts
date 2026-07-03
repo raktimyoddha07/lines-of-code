@@ -86,7 +86,7 @@ export function aggregateTree(
       let folderCode = 0;
 
       for (const child of updatedChildren) {
-        if (child.ignored) continue;
+        if (child.type === 'file' && child.ignored) continue;
 
         if (child.type === 'file') {
           if (!child.binary) {

@@ -1,6 +1,7 @@
 # Web dependencies
 node_modules/
 .next/
+out/
 
 
 # Local config
@@ -11,4 +12,13 @@ node_modules/
 .pytest_cache/
 *.log
 
+
+# Tauri
+# src-tauri/
+
+
+# Agent docs
 AGENTS.md
+appport.md
+
+
