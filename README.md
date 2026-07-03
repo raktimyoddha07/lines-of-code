@@ -161,13 +161,15 @@ lines-of-code/
 └── config files      # Settings for Next.js, TypeScript, etc.
 ```
 
+## 💾 Download the App
+
+Download pre-built desktop apps from [GitHub Releases](https://github.com/raktimyoddha07/lines-of-code/releases).
+
+| Platform | File Type | Download |
+|----------|-----------|----------|
+| Windows | `.exe` installer | [![Download .exe](https://img.shields.io/badge/Download-.exe-brightgreen?style=for-the-badge&logo=windows)](https://github.com/raktimyoddha07/lines-of-code/releases/download/Application/Lines.of.Code_0.1.0_x64-setup.exe) |
+
+
 ## 📄 License
 
 MIT License - free to use for anything
-
-
-## 💾 Download the App
-
-[![GitHub Release](https://img.shields.io/github/v/release/raktimyoddha07/lines-of-code)](https://github.com/raktimyoddha07/lines-of-code/releases)
-
-
