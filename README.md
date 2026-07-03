@@ -163,11 +163,12 @@ lines-of-code/
 
 ## 💾 Download the App
 
-You can get desktop versions for Windows, Mac, and Linux. Build them yourself using the instructions above, or download them from GitHub Releases.
+Download pre-built desktop apps from [GitHub Releases](https://github.com/raktimyoddha07/lines-of-code/releases).
 
-**Windows:** .exe installer
-**Mac:** .dmg file
-**Linux:** .AppImage or .deb file
+| Platform | File Type | Download |
+|----------|-----------|----------|
+| Windows | `.exe` installer | [Download(.exe)](https://github.com/raktimyoddha07/lines-of-code/releases/download/Application/LinesOfCode_1.0.0_x64-setup.exe) |
+
 
 ## 📄 License
 
